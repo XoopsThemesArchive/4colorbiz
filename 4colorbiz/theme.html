@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div align="center"><center>
+<table border="0" width="85%" cellspacing="0" cellpadding="0" style="border: 1px solid rgb(0,0,0)">
+<tr>
+<td width="25%" height="25" background="<{$xoops_imageurl}>navbarBG.gif" style="border: 1px none rgb(0,0,0)"><p align="left"><a href="<{$xoops_url}>/"><img src="<{$xoops_imageurl}>home.gif" alt="Home"></a></td>
+<td width="25%" height="25" background="<{$xoops_imageurl}>navbarBG.gif" style="border: 1px none rgb(0,0,0)"></td>
+<td width="25%" height="25" background="<{$xoops_imageurl}>navbarBG.gif" style="border: 1px none rgb(0,0,0)"></td>
+<td width="10%" height="25" background="<{$xoops_imageurl}>navbar2.gif" style="border: 1px none rgb(0,0,0)"><small><i>little slogan</i></small></td>
+</tr>
+</table>
+</center></div><div align="center"><center>
+<table border="0" width="85%" cellspacing="0" cellpadding="0" style="border-left: 1px solid rgb(0,0,0); border-right: 1px solid rgb(0,0,0); border-top: 1px none rgb(0,0,0); border-bottom: 1px solid rgb(0,0,0)">
+<tr>
+<td width="418" rowspan="2" height="180" bgcolor="#214463"><p align="right"><a href="<{$xoops_url}>/"><img src="<{$xoops_imageurl}>logo.jpg" alt="Welcome to <{$xoops_sitename}>"></a></td>
+<td width="60%" bgcolor="#214463" valign="middle" align="center"><table border="0" width="60%" style="border-left: 2px dotted rgb(255,255,255)" cellpadding="0" cellspacing="6">
+<tr>
+<td width="100%"><p align="left"><a href="<{$xoops_url}>/"><img src="<{$xoops_imageurl}>menuhome.gif" alt="Home"></a></td>
+</tr>
+<tr>
+<td width="100%"><p align="left"><a href="<{$xoops_url}>/modules/liaise/"><img src="<{$xoops_imageurl}>contact.gif" alt="Contact Us"></a></td>
+</tr>
+<tr>
+<td width="100%"><p align="left"><a href="<{$xoops_url}>/modules/newbb/"><img src="<{$xoops_imageurl}>forums.gif" alt="Forums"></a></td>
+</tr>
+<tr>
+<td width="100%"><p align="left"><a href="<{$xoops_url}>/modules/mylinks/"><img src="<{$xoops_imageurl}>links.gif" alt="Links"></a></td>
+</tr>
+<tr>
+<td width="100%"><p align="left"><a href="<{$xoops_url}>/modules/smartfaq/"><img src="<{$xoops_imageurl}>about.gif" alt="About Us"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="50%" background="<{$xoops_imageurl}>cellBG.gif"><form style="margin-top: 1px; margin-bottom: 0px" action="<{$xoops_url}>/search.php" method="post">
+<font color="#ffffff">Site Search: </font><input class="button" type="text" name="query" size="18" /style=" font-family: Verdana; font-size: 8pt">
+<input type="hidden" name="action" value="results" />
+<input name="submit" type="submit" class="hugh" value="search" / style="font-family: Verdana; font-size: 8pt; background-color: rgb(255,255,255); color: rgb(0,0,0); border-left: 1px groove rgb(128,128,128); border-right: 1px groove rgb(192,192,192); border-top: 1px double rgb(128,128,128); border-bottom: 1px groove rgb(192,192,192)">
+</form></td>
+</tr>
+</table>
+</center></div><div align="center"><center>
+<table border="0" width="85%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="100%" colspan="2" bgcolor="#C0C0C0" height="8"></td>
+</tr>
+<tr>
+<td width="30%" background="<{$xoops_imageurl}>cellBG.gif" height="30"><font color="#ffffff"><small>Welcome to <{$xoops_sitename}></small></font></td>
+<td id="headerbanner" width="70%" height="30" background="<{$xoops_imageurl}>darkBG.gif"><{$xoops_banner}></td>
+</tr>
+</table>
+<div align="center">
+<table cellspacing="0" width="85%" bgcolor="#707787">
+<tr>
+<td id="leftcolumn" valign="top" bgcolor="#707787">
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<{include file="4colorbiz/theme_blockleft.html"}>
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda -->
+</td>
+<td id="centercolumn" valign="top" bgcolor="#707787">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<table cellspacing="0">
+<tr>
+<td id="centerCcolumn" colspan="2">
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<{include file="4colorbiz/theme_blockcenter_c.html"}>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+</td>
+</tr>
+<tr>
+<td id="centerLcolumn">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<{include file="4colorbiz/theme_blockcenter_l.html"}>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td id="centerRcolumn">
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<{include file="4colorbiz/theme_blockcenter_r.html"}>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td>
+</tr>
+</table>
+<{/if}>
+<!-- End display center blocks -->
+<div id="content">
+<{$xoops_contents}>
+</div>
+</td>
+<{if $xoops_showrblock == 1}>
+<td id="rightcolumn" valign="top" bgcolor="CED2D9">
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}>
+<{include file="4colorbiz/theme_blockright.html"}>
+<{/foreach}>
+<!-- End right blocks loop -->
+</td>
+<{/if}>
+</tr>
+</table>
+&#032;&#032;<div align="center"><center>
+<table border="0" width="85%" cellspacing="0" cellpadding="0" style="border-top: 1px solid rgb(45,43,32); border-bottom: 1px solid rgb(93,105,93)">
+&#032;&#032;<tr>
+&#032;&#032;&#032;&#032;<td id="thefort" width="10%" bgcolor="#CED2D9" valign="middle"><p align="center"><small><a href="http://br.xoops.org/">&#088;&#111;&#111;&#112;&#115;<br>&#080;&#111;&#119;&#101;&#114;&#101;&#100;</a></small></td>
+&#032;&#032;&#032;&#032;<td id="footerbar" width="80%"><p align="center">&#067;&#111;&#112;&#121;&#114;&#105;&#103;&#104;&#116;&#058;&#032;<{$xoops_meta_copyright}>&#032;&#066;&#121;&#032;<{$xoops_sitename}><br>&#065;&#108;&#108;&#032;&#116;&#114;&#097;&#100;&#101;&#109;&#097;&#114;&#107;&#115;&#032;&#117;&#115;&#101;&#100;&#032;&#097;&#114;&#101;&#032;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#105;&#101;&#115;&#032;&#111;&#102;&#032;&#116;&#104;&#101;&#105;&#114;&#032;&#114;&#101;&#115;&#112;&#101;&#099;&#116;&#105;&#118;&#101;&#032;&#111;&#119;&#110;&#101;&#114;&#115;.&#032;&#065;&#108;&#108;&#032;&#114;&#105;&#103;&#104;&#116;&#115;&#032;&#114;&#101;&#115;&#101;&#114;&#118;&#101;&#100;.</td>
+&#032;&#032;&#032;&#032;<td id="thefort" width="10%" bgcolor="#CED2D9"><p align="center"><small><a href="&#104;&#116;&#116;&#112;&#058;//&#119;&#119;&#119;.&#052;&#116;&#104;&#101;&#102;&#111;&#114;&#116;.&#099;&#111;&#109;
+/">&#084;&#104;&#101;&#109;&#101;&#115;&#032;&#066;&#121;<br>&#052;&#116;&#104;&#101;&#102;&#111;&#114;&#116;</a></small></td>
+&#032;&#032;</tr>
+</table>
+</center></div>
+<br>
+&#032;&#032;<br>
+</body>
+</HTML>
